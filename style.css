@@ -22,7 +22,8 @@
 
 body {
   font-family: 'Open Sans';
-  background-color: rgb(240, 240, 240);
+  background-color: #222831;
+  color: white;
 }
 
 h1, h2, h3 {
@@ -31,30 +32,30 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: #575F7D;
+  color: white;
 }
 
 h2, h3 {
-  color: #7ECE90;
+  color: #eeeeee;
   margin-bottom: 24px;
 }
 
 a {
   font-weight: bold;
   text-decoration: none;
-  color: #268BD2;
+  color: #222831;
 }
 
 a:hover {
-  color: #1B6295;
+  color: #000000;
 }
 
 .card-white {
-  background: white;
+  background: #393e46;
   padding: 32px;
   margin: 24px;
   margin-bottom: 24px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   text-align: center;
   border-radius: 4px
 }
@@ -62,10 +63,11 @@ a:hover {
 .img-circle {
   width: 100px;
   border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
 }
 
-.btn-blue {
-  background-color: #268BD2;
+.btn-gray {
+  background-color: #808080;
   color: white;
   padding: 8px 24px;
   border-radius: 4px;
@@ -76,8 +78,8 @@ a:hover {
   margin: 32px;
 }
 
-.btn-blue:hover {
-  background-color: #144567;
+.btn-gray:hover {
+  background-color: black;
   color: white;
 }
 
@@ -98,10 +100,14 @@ a:hover {
 
 .social-icon {
   font-size: 40px;
-  color: rgb(190, 190, 190);
+  color: rgb(220, 220, 220);
   margin: 8px 24px;
 }
 
 .social-icon:hover {
   color: rgb(170, 170, 170);
+}
+
+#introduction p {
+  margin-bottom: 40px;
 }
